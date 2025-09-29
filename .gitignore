@@ -1,0 +1,119 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+output/
+transcripts/
+*.mp3
+*.wav
+*.m4a
+*.flac
+*.ogg
+*.mp4
+models/
+cache/
+
+# Test audio files (keep directory structure but ignore audio files)
+test_audio/*.mp3
+test_audio/*.wav
+test_audio/*.m4a
+test_audio/*.flac
+test_audio/*.ogg
+test_audio/*.mp4
+# Keep test_audio README
+!test_audio/README.md
+
+# Logs
+*.log
+logs/
+
+# Model cache
+.cache/
+~/.cache/whisperx/
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+.temp/
+
+# Claude Code specific
+.claude/
+
+# MyPy cache
+.mypy_cache/
+
+# Package manager lock files
+uv.lock
+
+# Build artifacts (already covered by *.egg-info/ above but being explicit)
+audio_extract.egg-info/
